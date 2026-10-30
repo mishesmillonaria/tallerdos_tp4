@@ -411,6 +411,10 @@ footer {
   -webkit-background-clip: padding-box, border-box;
 }
 
+.contenedorPromt img {
+  max-width: 100%;
+}
+
 .etiquetas {
   display: flex;
   flex-wrap: wrap;
