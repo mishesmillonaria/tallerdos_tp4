@@ -90,6 +90,10 @@ li {
   margin: 24px;
 }
 
+.textitovioleta {
+  color: #d7b0e6;
+}
+
 .tituloImagen {
   display: flex;
 }
@@ -162,15 +166,12 @@ li {
 .contenedorTarjeta {
   border-radius: 16px;
   border: 1px solid #ffffff;
-
   padding: 32px;
-
   width: 100%;
   max-width: 528px;
   box-sizing: border-box;
 
   background-color: rgba(23, 15, 31, 50%);
-
   background-origin: border-box;
   -webkit-background-origin: border-box;
   background-clip: padding-box, border-box;
@@ -189,18 +190,44 @@ li {
   border: 2px solid #79da5b80;
   flex-direction: row;
   padding: 32px;
-
   width: 100%;
   max-width: 528px;
   box-sizing: border-box;
 
   background: linear-gradient(to bottom, #170f1f00, #3f772e88);
-
   background-origin: border-box;
   -webkit-background-origin: border-box;
   background-clip: padding-box, border-box;
   -webkit-background-clip: padding-box, border-box;
 }
+
+.tarjetaDegradadoVioleta {
+  flex-direction: row;
+  border-radius: 16px;
+  border: 2px solid #d7b0e680;
+  padding: 32px;
+  width: 100%;
+  box-sizing: border-box;
+
+  background: linear-gradient(to bottom, #170f1f00, #d7b0e688);
+  background-origin: border-box;
+  -webkit-background-origin: border-box;
+  background-clip: padding-box, border-box;
+  -webkit-background-clip: padding-box, border-box;
+}
+
+.tarjetaDegradadoVioleta img {
+  border-radius: 16px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*.tarjetaPromt {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}*/
 
 .contenedorTarjeta img {
   max-width: 100%;
@@ -355,13 +382,11 @@ footer {
   display: inline-flex;
   align-items: center;
   gap: 0px;
-
   padding: 16px 40px;
   margin-top: 20px;
 
   background-color: #e1a0ff;
   border-radius: 200px;
-
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 700;
   font-size: 48px;
@@ -384,10 +409,6 @@ footer {
   -webkit-background-origin: border-box;
   background-clip: padding-box, border-box;
   -webkit-background-clip: padding-box, border-box;
-}
-
-.contenedorPromt img {
-  max-width: 100%;
 }
 
 .etiquetas {
