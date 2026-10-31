@@ -180,17 +180,16 @@ li {
   gap: 20px;
 }
 
-.tarjetaDegradadoVerde {
-  /*nuevo*/
-  border-radius: 16px;
-  border: 2px solid #79da5b80;
+.tarjetaDegradadoRojo {
   flex-direction: row;
+  border: 2px solid #f4a89580;
+  border-radius: 16px;
   padding: 32px;
+
   width: 100%;
-  max-width: 528px;
   box-sizing: border-box;
 
-  background: linear-gradient(to bottom, #170f1f00, #3f772e88);
+  background: linear-gradient(to bottom, #170f1f00, #f4a89588);
   background-origin: border-box;
   -webkit-background-origin: border-box;
   background-clip: padding-box, border-box;
@@ -213,6 +212,13 @@ li {
 }
 
 .tarjetaDegradadoVioleta img {
+  border-radius: 16px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tarjetaDegradadoRojo img {
   border-radius: 16px;
   max-width: 100%;
   height: auto;
