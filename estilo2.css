@@ -229,16 +229,6 @@ li {
   align-self: center;
 }
 
-.imgAtril {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-.imgMano {
-  max-width: 100%;
-}
-
 .opciones {
   display: flex;
 
