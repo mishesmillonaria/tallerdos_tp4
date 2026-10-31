@@ -90,10 +90,6 @@ li {
   margin: 24px;
 }
 
-.textitovioleta {
-  color: #d7b0e6;
-}
-
 .tituloImagen {
   display: flex;
 }
@@ -374,14 +370,11 @@ footer {
 
 .pasitoapasito {
   display: inline-flex;
-  align-items: center;
-  gap: 0px;
   padding: 16px 40px;
   margin-top: 20px;
 
-  background-color: #e1a0ff;
+  background-color: #d7b0e6;
   border-radius: 200px;
-  font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 700;
   font-size: 48px;
   letter-spacing: -0.02em;
@@ -392,7 +385,8 @@ footer {
 
 .contenedorPromt {
   border-radius: 16px;
-  border: 1px solid rgba(225, 160, 255, 0.5);
+  border: 1px solid rgba(215, 176, 230, 0.5);
+
   padding: 40px;
 
   width: 100%;
